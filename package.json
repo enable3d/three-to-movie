@@ -1,0 +1,22 @@
+{
+  "name": "three-to-movie",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "five-server",
+    "render": "node server/index.mjs"
+  },
+  "keywords": [],
+  "author": "Yannick Deubel (https://github.com/yandeu)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.4.8",
+    "five-server": "^0.0.28",
+    "puppeteer": "^10.1.0"
+  },
+  "dependencies": {
+    "@yandeu/express-dev": "^0.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

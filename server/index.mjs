@@ -59,7 +59,10 @@ listen.listen(port).then(async port => {
       await page.close()
       await browser.close()
 
-      const cmd = `ffmpeg -y -r 30 -f image2 -i "${join('screenshots', 'frame%04d.png')}" -vcodec libx264 output.mp4`
+      const cmd = `ffmpeg -y -r 30 -f image2 -start_number 1 -i "${join(
+        'screenshots',
+        'frame%04d.png'
+      )}" -c:v libx264 -pix_fmt yuv420p -preset slow -crf 16 output.mp4`
 
       console.log('')
       console.log('> Running: ', cmd)

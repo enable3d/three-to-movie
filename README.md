@@ -12,6 +12,6 @@ npm run render
 # your movie will be the output.mp4 file
 ```
 
-https://user-images.githubusercontent.com/20306025/127776249-4e866d84-b507-4251-9c4c-ac5723b34f63.mp4
+https://user-images.githubusercontent.com/20306025/127862146-440270e7-fc1b-4a46-aa16-066286ce62ea.mp4
 
 YouTube: [https://youtu.be/tY-wZHosaVY](https://youtu.be/tY-wZHosaVY)
